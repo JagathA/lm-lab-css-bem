@@ -1,8 +1,12 @@
 /* You can delete / re-write this img class  */
 
 img {
-    max-width: 200px;
-}
+    border: 0.5rem;
+    border-radius: 1rem;
+    padding: 2 rem;
+    width: 10rem;
+    height: 12rem;
+  }
 
 /* Happy coding! */
 .container{
