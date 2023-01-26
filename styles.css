@@ -6,17 +6,17 @@ img {
     padding: 2 rem;
     width: 10rem;
     height: 12rem;
-  }
+}
 
 /* Happy coding! */
-.container{
+.container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-.card{
-    max-width : 50rem;
+.card {
+    max-width: 50rem;
     width: 13rem;
     max-height: 150rem;
     margin: 2rem;
@@ -24,24 +24,25 @@ img {
     border: 0.25rem solid;
 }
 
-.card-dark{
+.card-dark {
     color: red;
     background-color: black;
     border-color: red;
 }
 
-.card-notsodark{
+.card-notsodark {
     color: purple;
     background-color: grey;
     border-color: purple;
 }
-.card-notsolight{
+
+.card-notsolight {
     color: blue;
-    background-color:lightyellow;
+    background-color: lightyellow;
     border-color: blue;
 }
 
-.card-light{
+.card-light {
     color: black;
     background-color: white;
     border-color: orange;
@@ -53,49 +54,26 @@ img {
     width: 150px;
     height: 50px;
     border-radius: 5px;
- }
+}
 
 .btn-light {
     background: #FFF;
     border-color: orange;
- }
- 
- .btn-dark{
+}
+
+.btn-dark {
     color: red;
     background: #000;
     border-color: red;
- }
- 
- .btn-notsodark{
+}
+
+.btn-notsodark {
     color: purple;
     background: grey;
     border-color: purple;
- }
+}
 
- .btn-notsolight {
+.btn-notsolight {
     background: lightyellow;
     border-color: blue;
- }
-
-
-
- 
- 
-
-
-
-
-
-
-/* Structure
-height
-width
-margins
-padding
-overflow
-
-Skin
-colors
-fonts
-shadows
-gradients */
+}
