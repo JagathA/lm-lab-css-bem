@@ -5,3 +5,48 @@ img {
 }
 
 /* Happy coding! */
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.card{
+    max-width : 50rem;
+    width: 13rem;
+    max-height: 150rem;
+    margin: 2rem;
+    padding: 2rem;
+    border: 0.25rem solid;
+}
+
+.card-dark{
+    color: red;
+    background-color: black;
+    border-color: red;
+}
+
+.card-light{
+    color: black;
+    background-color: white;
+    border-color: orange;
+}
+
+
+
+
+
+
+
+/* Structure
+height
+width
+margins
+padding
+overflow
+
+Skin
+colors
+fonts
+shadows
+gradients */
