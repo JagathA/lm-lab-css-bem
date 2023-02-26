@@ -1,12 +1,5 @@
 /* You can delete / re-write this img class  */
 
-img {
-    border: 0.5rem;
-    border-radius: 1rem;
-    padding: 2 rem;
-    width: 10rem;
-    height: 12rem;
-}
 
 /* Happy coding! */
 .container {
@@ -24,56 +17,90 @@ img {
     border: 0.25rem solid;
 }
 
-.card-dark {
-    color: red;
+
+.card__img {
+    border: 0.5rem;
+    border-radius: 1rem;
+    padding: 2 rem;
+    width: 10rem;
+    height: 12rem;
+}
+
+.card--black {
     background-color: black;
+}
+
+.card--grey {
+    background-color: grey;
+}
+
+.card--yellow {
+    background-color: yellow;
+}
+
+.card--white {
+    background-color: white;
+}
+
+.card__border--red {
     border-color: red;
 }
 
-.card-notsodark {
-    color: purple;
-    background-color: grey;
+.card__text--red {
+    color: red;
+}
+
+.card__border--purple {
     border-color: purple;
 }
 
-.card-notsolight {
-    color: blue;
-    background-color: lightyellow;
-    border-color: blue;
+.card__text--purple {
+    color: purple;
 }
 
-.card-light {
-    color: black;
-    background-color: white;
+
+.card__border--orange {
     border-color: orange;
 }
 
+.card__text--orange {
+    color: orange;
+}
 
+.card__border--green {
+    border-color: green;
+}
 
-.btn {
+.card__text--green {
+    color: green;
+}
+
+.card__btn {
     width: 150px;
     height: 50px;
     border-radius: 5px;
 }
 
-.btn-light {
-    background: #FFF;
-    border-color: orange;
+.card__btn--white {
+    color: green;
+    background: white;
+    border-color: green;
 }
 
-.btn-dark {
+.card__btn--black {
     color: red;
-    background: #000;
+    background: black;
     border-color: red;
 }
 
-.btn-notsodark {
+.card__btn--grey {
     color: purple;
     background: grey;
     border-color: purple;
 }
 
-.btn-notsolight {
-    background: lightyellow;
-    border-color: blue;
+.card__btn--yellow {
+    color: orange;
+    background: yellow;
+    border-color: orange;
 }
